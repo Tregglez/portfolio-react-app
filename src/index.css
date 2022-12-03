@@ -13,3 +13,13 @@
     @apply cursor-pointer
   };
 }
+
+.navbar-image {
+  width: 96px;
+  height: 96px;
+}
+
+@media (min-width:1024px) {.navbar-image {
+  width: 150px;
+  height: 150px;
+}}

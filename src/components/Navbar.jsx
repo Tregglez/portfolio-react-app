@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import { FiFeather, FiDisc } from "react-icons/fi";
-import Home from "../assets/home.gif";
-import About from "../assets/about me.gif";
-import Projects from "../assets/projects.gif";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
@@ -25,29 +22,44 @@ const Navbar = () => {
             : "absolute top-0 left-0 w-full h-screen bg-[#EECCEA] font-bold flex flex-col justify-center items-start"
         }
       >
-        <ul>
-          {/* <li className="py-6 text-[48px] text-black flex">
-            <li className="py-6 text-[15px] text-[#CD49C0]">01</li>
-            Home
-            <img src={Home} alt="Home Gif" style={{ alignSelf: "end" }} />
-          </li> */}
+        <div className="w-10/12 mx-auto md:w-8/12 lg:w-6/12">
+          <div className="flex justify-between items-center h-40">
+            <div className="my-6 text-[48px] text-black flex">
+              <p className="text-[15px] text-[#CD49C0] leading-10 py-2 my-0 mr-1 lg:text-[20px] lg:leading-5 lg:py-7">
+                01
+              </p>
+              <p className="lg:text-[70px]">Home</p>
+            </div>
+            <div>
+              <img src="/assets/home.gif" alt="" className="navbar-image" />
+            </div>
+          </div>
+          <div className="flex justify-between items-center">
+            <div className="my-6 text-[48px] text-black flex">
+              <p className="text-[15px] text-[#CD49C0] leading-10 py-2 my-0 mr-1 lg:text-[20px] lg:leading-5 lg:py-7">
+                02
+              </p>
+              <p className="lg:text-[70px]">Projects</p>
+            </div>
+            <div>
+              <img src="/assets/projects.gif" alt="" className="navbar-image" />
+            </div>
+          </div>
 
-          <li className="py-6 text-[48px] text-black flex">
-            <p className="py-6 text-[15px] text-[#CD49C0]">01</p>
-            <p>Home</p>
-            {/* <img src={Home} alt="Home Gif" /> */}
-          </li>
-          <li className="py-6 text-[48px] text-black flex">
-            <li className="py-6 text-[15px] text-[#CD49C0]">02</li>
-            Projects
-          </li>
-
-          <li className="py-6 text-[48px] text-black flex">
-            <li className="py-6 text-[15px] text-[#CD49C0]">03</li>
-            About
-          </li>
-        </ul>
+          <div className="flex justify-between items-center">
+            <div className="my-6 text-[48px] text-black flex">
+              <p className="text-[15px] text-[#CD49C0] leading-10 py-2 my-0 mr-1 lg:text-[20px] lg:leading-5 lg:py-7">
+                03
+              </p>
+              <p className="lg:text-[70px]">About</p>
+            </div>
+            <div>
+              <img src="/assets/about.gif" alt="" className="navbar-image" />
+            </div>
+          </div>
+        </div>
       </div>
+
       {/* Social Icons */}
       <div className="hidden"></div>
     </div>
