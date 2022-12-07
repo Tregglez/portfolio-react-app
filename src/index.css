@@ -19,6 +19,10 @@
   height: 96px;
 }
 
+@media (max-width:434px) {.indent {
+  display: block;
+}}
+
 @media (min-width:1024px) {.navbar-image {
   width: 150px;
   height: 150px;
