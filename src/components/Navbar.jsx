@@ -11,7 +11,7 @@ const Navbar = () => {
         <img
           src="assets/moon.png"
           alt="set to dark mode"
-          className="w-6 h-7 mx-10"
+          className="w-5 h-6 mx-10"
         />
       </div>
 
@@ -21,7 +21,7 @@ const Navbar = () => {
           <img
             src="assets/cross.png"
             alt="open navbar"
-            className="w-8 h-7 cursor-pointer hover:animate-spin"
+            className="w-7 h-6 cursor-pointer hover:animate-spin"
           />
         ) : (
           <img
