@@ -12,8 +12,11 @@ const Home = () => {
           <span className='indent'> Melbourne, Australia</span>
         </h2>
 
+        {/* links */}
         <div className='flex justify-between pt-10 w-full'>
-          <p className='underline underline-offset-8 lg:px-4'>Projects</p>
+          <a href="/projects">
+            <p className='underline underline-offset-8 lg:px-4'>Projects</p>
+          </a>
           <a href='/about'>
             <p className='underline underline-offset-8 lg:px-4'>About Me</p>
           </a>

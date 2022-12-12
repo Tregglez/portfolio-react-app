@@ -67,7 +67,9 @@ const Navbar = () => {
               <p className="text-[15px] text-[#CD49C0] leading-10 py-2 my-0 mr-1 lg:text-[20px] lg:leading-5 lg:py-7">
                 02
               </p>
-              <p className="lg:text-[70px]">Projects</p>
+              <a href="/projects">
+                <p className="lg:text-[70px]">Projects</p>
+              </a>
             </div>
             <div>
               <img

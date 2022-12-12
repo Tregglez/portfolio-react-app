@@ -7,6 +7,7 @@ const About = () => {
         <span className='text-[#CD49C0]'>03</span> About
       </h1>
 
+      {/* Description */}
       <div className='w-full flex flex-col justify-center items-center text-center'>
         <h2 className='font-bold mt-3 text-2xl pb-2'>Hi!</h2>
         <div className='flex justify-center items-center text-center w-6/12 h-auto pt-8 text-base'>
@@ -23,25 +24,49 @@ const About = () => {
         </div>
 
         <div className='w-full flex flex-col justify-center items-center text-center mt-10'>
-          <div className="flex justify-center w-full border">
-            <h3>
-              Ruby
-              <img src="assets/first-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
-            </h3>
 
-            <img src="assets/second-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
-            <img src="assets/fourth-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
+          {/* Top Row */}
+          <div className="flex justify-center w-full hide-img">
+            <div className="relative">
+              <img src="assets/first-circle.png" alt="" className="w-52 h-16 mx-9 my-6" />
+              <h2 className="absolute top-11 right-24">Ruby on Rails</h2>
+            </div>
+            <div className="relative">
+              <img src="assets/second-circle.png" alt="" className="w-52 h-16 mx-9 my-6" />
+              <h2 className="absolute top-11 right-20">HTML / CSS / ES6</h2>
+            </div>
+            <div className="relative">
+              <img src="assets/fourth-circle.png" alt="" className="w-52 h-16 mx-9 my-6" />
+              <h2 className="absolute top-11 right-28">React.js</h2>
+            </div>
           </div>
 
-          <div className="flex justify-center w-full">
-            <img src="assets/fifth-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
-            <img src="assets/sixth-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
-            <img src="assets/first-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
+          {/* Middle Row */}
+          <div className="flex justify-center w-full hide-img">
+            <div className="relative">
+              <img src="assets/fifth-circle.png" alt="" className="w-52 h-16 mx-9 my-6" />
+              <h2 className="absolute top-11 right-32">SQL</h2>
+            </div>
+            <div className="relative">
+              <img src="assets/first-circle.png" alt="" className="w-52 h-16 mx-9 my-6" />
+              <h2 className="absolute top-11 right-24">Active Record</h2>
+            </div>
+            <div className="relative">
+              <img src="assets/sixth-circle.png" alt="" className="w-52 h-16 mx-9 my-6" />
+              <h2 className="absolute top-11 right-14">Relational Databasing</h2>
+            </div>
           </div>
 
-          <div className="flex justify-center w-full">
-            <img src="assets/fourth-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
-            <img src="assets/fifth-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
+          {/* Bottom Row */}
+          <div className="flex justify-center w-full hide-img">
+            <div className="relative">
+              <img src="assets/fourth-circle.png" alt="" className="w-52 h-16 mx-9 my-6" />
+              <h2 className="absolute top-11 right-24">Basketball</h2>
+            </div>
+            <div className="relative">
+              <img src="assets/fifth-circle.png" alt="" className="w-52 h-16 mx-9 my-6" />
+              <h2 className="absolute top-11 right-24">Swimming</h2>
+            </div>
           </div>
 
         </div>
