@@ -22,41 +22,28 @@ const About = () => {
           </p>
         </div>
 
-        <div className='w-full flex flex-col justify-center items-center text-center'>
-          <h2 className='font-bold text-2xl mt-24'>Interests</h2>
+        <div className='w-full flex flex-col justify-center items-center text-center mt-10'>
+          <div className="flex justify-center w-full border">
+            <h3>
+              Ruby
+              <img src="assets/first-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
+            </h3>
 
-          <div className='flex justify-around items-center border-solid border-2 border-red-500 w-4/12 py-8'>
-            <p className='font-bold border-solid border-2 border-black rounded-full px-10'>
-              ES6 Javascript
-            </p>
-            <p className='font-bold border-solid border-2 border-black rounded-full p-6'>
-              HTML + CSS
-            </p>
-            <p className='font-bold border-solid border-2 border-black rounded-full p-6'>
-              React.js
-            </p>
+            <img src="assets/second-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
+            <img src="assets/fourth-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
           </div>
 
-          <div className='flex justify-around items-center border-solid border-2 border-red-500 w-4/12 py-8'>
-            <p className='font-bold border-solid border-2 border-black rounded-full p-6'>
-              SQL
-            </p>
-            <p className='font-bold border-solid border-2 border-black rounded-full p-6'>
-              Heroku
-            </p>
-            <p className='font-bold border-solid border-2 border-black rounded-full p-6'>
-              Github
-            </p>
+          <div className="flex justify-center w-full">
+            <img src="assets/fifth-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
+            <img src="assets/sixth-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
+            <img src="assets/first-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
           </div>
 
-          <div className='flex justify-around items-center border-solid border-2 border-red-500 w-4/12 py-8'>
-            <p className='font-bold border-solid border-2 border-black rounded-full p-6'>
-              Ruby on Rails
-            </p>
-            <p className='font-bold border-solid border-2 border-black rounded-full p-6'>
-              Active Record
-            </p>
+          <div className="flex justify-center w-full">
+            <img src="assets/fourth-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
+            <img src="assets/fifth-circle.png" alt="" className="w-40 h-14 mx-9 my-6" />
           </div>
+
         </div>
       </div>
     </div>
