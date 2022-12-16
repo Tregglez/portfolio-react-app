@@ -2,16 +2,16 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className='w-full h-screen'>
-      <h1 className='px-5 py-6 font-bold text-2xl'>
-        <span className='text-[#CD49C0]'>03</span> About
+    <div className='w-full h-screen dark:bg-black'>
+      <h1 className='px-5 py-6 font-bold text-2xl dark:text-white'>
+        <span className='text-[#CD49C0] dark:text-[#58C55C]'>03</span> About
       </h1>
 
       {/* Description */}
       <div className='w-full flex flex-col justify-center items-center text-center'>
-        <h2 className='font-bold mt-3 text-2xl pb-2'>Hi!</h2>
+        <h2 className='font-bold mt-3 text-2xl pb-2 dark:text-white'>Hi!</h2>
         <div className='flex justify-center items-center text-center w-full h-auto pt-8 text-base'>
-          <p className="w-10/12 mx-auto">
+          <p className="w-10/12 mx-auto dark:text-white">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Blanditiis
             neque obcaecati amet reiciendis! Excepturi reprehenderit dolorum
             ducimus? Obcaecati culpa voluptate ipsum voluptates perspiciatis eos
